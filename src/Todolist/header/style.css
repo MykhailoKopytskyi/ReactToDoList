@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header h2{
+  color: rgb(234, 127, 127);
+  font-size: 35px;
+}
+
+.declare-task-block{
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  column-gap: 10px;
+}
+
+.declare-task{
+  border: 1px solid rgb(207, 204, 204);
+  padding: 20px 15px;
+  border-radius: 3px;
+  font-style: italic;
+}
+
+.declare-task:focus{
+  outline: 2px solid rgb(153, 153, 153);
+}
+
+.add-task{
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  background-color: green;
+  color: #fff;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  outline: none;
+}
