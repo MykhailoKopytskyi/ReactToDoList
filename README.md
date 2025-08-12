@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# To do list
+React was used to create the to do list while practising the framework. 
+## Features:
+- Adding a new task
+- Removing a task
+- Marking completed tasks
+- Filtering through tasks
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
